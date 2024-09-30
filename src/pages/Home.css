@@ -1,0 +1,39 @@
+/**
+ * File: Home.css
+ * Student's Name: Jeremy Salvador
+ * Student ID: 301353563
+ * Date: September 29, 2024
+ * Description: CSS styles for the Home Page.
+ */
+
+.home {
+    padding: 50px;
+    text-align: center;
+    background-color: #f4f4f4;
+  }
+  
+  .home h1 {
+    font-size: 40px;
+    color: #333;
+  }
+  
+  .home p {
+    font-size: 18px;
+    margin: 20px 0;
+  }
+  
+  .home-buttons .btn {
+    padding: 10px 20px;
+    background-color: #333;
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+    font-size: 16px;
+    transition: background-color 0.3s ease, transform 0.3s ease; /* Added transform transition */
+  }
+  
+  .home-buttons .btn:hover {
+    background-color: #555;
+    transform: scale(1.1); /* Slightly enlarges the button on hover */
+  }
+  

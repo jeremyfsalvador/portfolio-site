@@ -1,0 +1,65 @@
+/**
+ * File: Project.css
+ * Student's Name: Jeremy Salvador
+ * Student ID: 301353563
+ * Date: September 29, 2024
+ * Description: CSS styles for the Projects page.
+ */
+
+.projects {
+  padding: 50px;
+  text-align: center;
+}
+
+.projects h1 {
+  font-size: 36px;
+  color: #333;
+  margin-bottom: 30px;
+}
+
+/* Use a flexbox layout to center the project content */
+.project {
+  margin-bottom: 50px;
+  padding: 20px;
+  background-color: #f9f9f9;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  max-width: 800px;
+  margin: 0 auto 50px; /* Centers the project section */
+  text-align: center;
+}
+
+.project img {
+  width: 100%;
+  max-width: 600px;
+  height: auto;
+  border-radius: 10px;
+  margin-bottom: 20px;
+}
+
+.project h2 {
+  font-size: 28px;
+  margin-bottom: 10px;
+  color: #333;
+}
+
+.project p {
+  font-size: 16px;
+  color: #555;
+  margin-bottom: 10px;
+}
+
+.project p strong {
+  color: #333;
+}
+
+@media (max-width: 768px) {
+  .project {
+    text-align: center;
+  }
+
+  .project img {
+    width: 100%;
+    max-width: 100%;
+  }
+}
